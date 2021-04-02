@@ -26,6 +26,6 @@ app.get("/other", (req, res) => {
   res.send(page("other.js"));
 });
 
-app.use("/script", express.static("/home/node/app/snowpack-test/build/build"));
+app.use("/script", express.static("/home/node/app/build/build"));
 
 app.listen(3000, () => {console.log("server running")});

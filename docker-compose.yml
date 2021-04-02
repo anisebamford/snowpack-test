@@ -1,0 +1,20 @@
+version: '3.8'
+
+networks:
+  default:
+
+services:
+  node:
+    command: "npm run start"
+    environment:
+      - NODE_ENV
+    hostname: snowpack-bug-demo
+    image: "node:14"
+    networks:
+      - default
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./:/home/node/app
+    working_dir: /home/node/app/server
