@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "@material-ui/core/FormControl": "./@material-ui/core/FormControl.js",
+    "@material-ui/core/Input": "./@material-ui/core/Input.js",
+    "@material-ui/core/InputLabel": "./@material-ui/core/InputLabel.js",
+    "react": "./react.js",
+    "react-dom": "./react-dom.js",
+    "snowpack-test-lib": "./snowpack-test-lib.js"
+  }
+}
