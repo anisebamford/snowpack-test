@@ -1,5 +1,5 @@
-import { r as react } from './index-08d32ee4.js';
-import { b as _objectWithoutProperties, c as _extends, f as _defineProperty, g as deepmerge, h as createUnarySpacing, j as withStyles$1 } from './withStyles-2b6a4506.js';
+import { r as react, g as getDefaultExportFromCjs, c as createCommonjsModule } from './index-08d32ee4.js';
+import { b as _objectWithoutProperties, c as _extends, f as _defineProperty, g as deepmerge, h as createUnarySpacing, j as withStyles$1 } from './withStyles-f5ba1be2.js';
 
 function formControlState(_ref) {
   var props = _ref.props,
@@ -194,22 +194,33 @@ var pink = {
   A700: '#c51162'
 };
 
+var red_1 = createCommonjsModule(function (module, exports) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
 var red = {
-  50: '#ffebee',
-  100: '#ffcdd2',
-  200: '#ef9a9a',
-  300: '#e57373',
-  400: '#ef5350',
-  500: '#f44336',
-  600: '#e53935',
-  700: '#d32f2f',
-  800: '#c62828',
-  900: '#b71c1c',
-  A100: '#ff8a80',
-  A200: '#ff5252',
-  A400: '#ff1744',
-  A700: '#d50000'
+  50: '#000000',
+  100: '#000000',
+  200: '#000000',
+  300: '#000000',
+  400:  '#000000',
+  500: '#000000',
+  600: '#000000',
+  700: '#000000',
+  800: '#000000',
+  900: '#000000',
+  A100: '#000000',
+  A200: '#000000',
+  A400: '#000000',
+  A700: '#000000'
 };
+var _default = red;
+exports.default = _default;
+});
+
+var red = /*@__PURE__*/getDefaultExportFromCjs(red_1);
 
 var orange = {
   50: '#fff3e0',
